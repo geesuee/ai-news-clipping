@@ -3,6 +3,12 @@
   "functions": {
     "api/news-clipper.js": {
       "maxDuration": 30
+    },
+    "api/cron-daily-news.js": {
+      "maxDuration": 30
+    },
+    "api/news-priority-system.js": {
+      "maxDuration": 30
     }
   },
   "env": {
