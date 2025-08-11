@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "functions": {
+    "api/news-clipper.js": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "OPENAI_API_KEY": "@openai_api_key",
+    "SLACK_WEBHOOK_URL": "@slack_webhook_url"
+  },
+  "crons": [
+    {
+      "path": "/api/cron-daily-news",
+      "schedule": "0 2 * * *"
+    }
+  ]
+} 

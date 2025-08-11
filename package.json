@@ -1,0 +1,32 @@
+{
+  "name": "ai-news-clipper",
+  "version": "1.0.0",
+  "description": "AI 뉴스 클리핑 및 슬랙 공유 서비스",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "deploy": "vercel --prod",
+    "test": "node test.js",
+    "test:priority": "node test-priority-system.js",
+    "example:priority": "node priority-example.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "openai": "^4.20.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.5.0"
+  },
+  "keywords": [
+    "ai",
+    "news",
+    "slack",
+    "vercel"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
